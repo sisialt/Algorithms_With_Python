@@ -53,7 +53,7 @@ find_all_solutions(0, target, words_by_idx, words_count, [])
 #     if result == target:
 #         if searched_strings not in found_combs:
 #             print(*searched_strings)
-#             found_combs.append(searched_strings)
+#             found_combs.append(searched_strings) #backtr
 #             searched_strings.clear()
 #         return
 #
